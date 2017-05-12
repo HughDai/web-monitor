@@ -1,0 +1,32 @@
+{
+  "name": "web-monitor",
+  "version": "1.0.0",
+  "description": "使用Phantomjs开发的网站监控工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HughDai/web-monitor.git"
+  },
+  "keywords": [
+    "monitor",
+    "phantom"
+  ],
+  "author": "hughdai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HughDai/web-monitor/issues"
+  },
+  "homepage": "https://github.com/HughDai/web-monitor#readme",
+  "dependencies": {
+    "node-schedule": "^1.2.1",
+    "nodemailer": "^4.0.1",
+    "phantomjs": "^2.1.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
